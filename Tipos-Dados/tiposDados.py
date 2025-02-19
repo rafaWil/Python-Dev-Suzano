@@ -8,5 +8,6 @@ print(1.5 + 1 + 0.5)
 print(True)
 print(False)
 
+
 # String
 print("Olá, mundo!")
