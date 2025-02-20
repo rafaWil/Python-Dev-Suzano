@@ -12,4 +12,3 @@ limite_saque_diario = 1000
 # Modelo padrao para constantes
 BRAZILIAN_STATES = ["SP", "AM", "RJ", "SC"]
 print(BRAZILIAN_STATES)
-
