@@ -32,3 +32,7 @@ saque = 200
 limite = 100
 print(not(saldo >= saque and saque <= limite))
 # Deve retornar -> TRUE
+
+# Exemplo Operador de Associacao Booleano
+frutas = ["laranja", "limao", "uva"]
+print("laranja" in frutas) # >>> TRUE
