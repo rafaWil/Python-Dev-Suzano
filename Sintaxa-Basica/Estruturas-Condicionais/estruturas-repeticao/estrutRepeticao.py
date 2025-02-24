@@ -6,3 +6,13 @@
 # Existem dois tipos de estruturas de repetição em Python: for e while.
 # O for é usado para iterar sobre uma coleção de dados, enquanto o while é
 # usado para executar um bloco de código enquanto uma condição for verdadeira.
+
+# FOR
+texto = input("Informe um texto: ")
+VOGAIS = "AEIOU"
+
+for letra in texto:
+    if letra.upper() in VOGAIS:
+        print(letra, end="")
+    
+print()
