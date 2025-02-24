@@ -34,3 +34,14 @@ elif opcao == 2:
     print("Exibindo Extrato...")
 else:
     sys.exit("Opcao Invalida!")
+    
+# IF TERNARIO
+"""
+    O if ternario permite escrever uma condição em uma única linha. Ele é composto
+    por tres partes, a primeira parte é o retorno caso a expressão retorne verdadeiro, a segunda parte
+    é a expressão lógica e a terceira parte é o retorno caso a expressão não seja atendida.
+"""
+
+status = "Sucesso" if saldo >= saque else "falha"
+
+print(f"{status} ao realizar o saque")
