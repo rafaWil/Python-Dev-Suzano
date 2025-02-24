@@ -10,3 +10,12 @@ if  saldo >= saque:
 
 if saldo < saque:
     print("Saldo Insuficiente!")
+    
+# Exemplo com IF ELSE
+saldo = 2000.0
+saque = float(input("Informe o valor de saque: "))
+
+if  saldo >= saque:
+    print("Realizando Saque...")
+else:
+    print("Saldo Insuficiente!")
