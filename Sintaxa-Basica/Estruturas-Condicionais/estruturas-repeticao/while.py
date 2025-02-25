@@ -1,6 +1,12 @@
 # WHILE
 # O comando WHILE é usado para repetir um bloco de código várias vezes.
 
+import os
+
+# Funcao para limpar tela
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 # Exemplo:
 opcao = -1
 while opcao != 0:
@@ -10,3 +16,6 @@ while opcao != 0:
         print("Sacando...")
     elif opcao == 2:
         print("Exibindo o Exrato")
+else:
+    limpar_tela()
+    print("Obrigado por usar os nossos serviços!")
