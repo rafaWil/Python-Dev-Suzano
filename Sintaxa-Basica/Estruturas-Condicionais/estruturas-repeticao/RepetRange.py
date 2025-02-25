@@ -7,3 +7,8 @@
     i, i+1, i+2, i+3,....j-1.
     Ela recebe 3 argumentos: STOP(Obrigatório), START(Opcional) e STEP OPCIONAL.
 """
+
+# Utilizando range como FOR
+for numero in range(0,11):
+    print(numero, end=" ")
+# Resultado 0 1 2 3 4 5 6 7 8 9 10
