@@ -29,3 +29,14 @@ print(curso.lstrip())
 # Print para remover os espacos do final
 print(curso.rstrip())
 # >>> Resultado -> Curso de Python
+
+
+# Junções e Centralização
+
+cursoB = "Javascript"
+
+print(cursoB.center(16, "#"))
+# Resultado -> "##Python##"
+
+print(".".join(cursoB))
+# Resultado -> "P.y.t.h.o.n"  # O separador é o ponto
