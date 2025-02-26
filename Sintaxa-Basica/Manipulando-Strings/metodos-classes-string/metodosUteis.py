@@ -14,3 +14,18 @@ print(curso.lower())
 # Transformando em Titulo
 print(curso.title())
 # >>> Resultado -> Python
+
+# Eliminando espacoes em branco da String
+curso = "   Curso de Python   "
+
+# Print para remover todos os espaços
+print(curso.strip())
+# >>> Resultado -> Curso de Python
+
+# Print para removar os espacos do inicio
+print(curso.lstrip())
+# >>> Resultado -> Curso de Python
+
+# Print para remover os espacos do final
+print(curso.rstrip())
+# >>> Resultado -> Curso de Python
