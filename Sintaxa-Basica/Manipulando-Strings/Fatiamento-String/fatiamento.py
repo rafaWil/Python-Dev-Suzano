@@ -7,3 +7,7 @@ print(variavelExemplo[0])
 
 print(variavelExemplo[:6])
 # >>> Resultado: "Wilson"
+
+print(variavelExemplo[14:19])\
+# >>> Resultado: "Gomes"
+    
