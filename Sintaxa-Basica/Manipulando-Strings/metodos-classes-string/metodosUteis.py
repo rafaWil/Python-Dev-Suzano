@@ -39,4 +39,4 @@ print(cursoB.center(16, "#"))
 # Resultado -> "##Python##"
 
 print(".".join(cursoB))
-# Resultado -> "P.y.t.h.o.n"  # O separador é o ponto
+# Resultado -> "P.y.t.h.o.n"  # O separador é o ponto determinado
