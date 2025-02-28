@@ -13,3 +13,5 @@ Olá meu nome é {nome},
 '''
 # >>> RESULTADO: Olá meu nome é Wilson,
                 # Eu sou um desenvolvedor Python.
+                
+print(mensagem)
