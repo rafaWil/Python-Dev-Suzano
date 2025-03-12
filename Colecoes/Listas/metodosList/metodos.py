@@ -68,3 +68,11 @@ lista8 = ["oi", "ola", "bye", "good"]
 print(lista8.reverse()) # Resultado => None
 print(lista8) # Resultado => ['good', 'bye', 'ola', 'oi']
 # O método reverse() é usado para inverter a ordem dos elementos de uma lista.
+
+
+
+# SORT
+lista9 = ["oi", "ola", "bye", "good"]
+print(lista9.sort()) # Resultado => None
+print(lista9) # Resultado => ['bye', 'good', 'oi', 'ola']
+# O método sort() é usado para ordenar os elementos de uma lista em ordem alfabetica
