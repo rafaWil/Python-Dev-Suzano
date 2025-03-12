@@ -47,3 +47,17 @@ print(lista4) # Resultado => ['Js', 'C++', 'Java', 'Python, 'Ruby]
 lista5 = ["oi", "ola", "bye", "good"]
 
 print(lista5.index("bye")) # Resultado => 2
+
+
+# POP
+lista6 = ["oi", "ola", "bye", "good"]
+print(lista6.pop()) # Resultado => "good"
+print(lista6) # Resultado => ['oi', 'ola', 'bye']
+# O método pop() é usado para remover o último elemento de uma lista e retorná-lo.
+
+
+# REMOVE
+lista7 = ["oi", "ola", "bye", "good"]
+print(lista7.remove("bye")) # Resultado => None
+print(lista7) # Resultado => ['oi', 'ola', 'good']
+# O método remove() é usado para remover o primeiro elemento de uma lista que seja igual ao argument
