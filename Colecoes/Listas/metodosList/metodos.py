@@ -61,3 +61,10 @@ lista7 = ["oi", "ola", "bye", "good"]
 print(lista7.remove("bye")) # Resultado => None
 print(lista7) # Resultado => ['oi', 'ola', 'good']
 # O método remove() é usado para remover o primeiro elemento de uma lista que seja igual ao argument
+
+
+# REVERSE
+lista8 = ["oi", "ola", "bye", "good"]
+print(lista8.reverse()) # Resultado => None
+print(lista8) # Resultado => ['good', 'bye', 'ola', 'oi']
+# O método reverse() é usado para inverter a ordem dos elementos de uma lista.
