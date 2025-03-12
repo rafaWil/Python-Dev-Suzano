@@ -8,3 +8,5 @@
 frutas = ['maçã', 'banana', 'laranja', 'morango']
 print(frutas[0])  # Acessa a primeira posição da lista (maçã)
 print(frutas[3])  # Acessa a quarta posição da lista (morango)
+
+print(frutas[-1]) # Acessa a última posição da lista (morango)
