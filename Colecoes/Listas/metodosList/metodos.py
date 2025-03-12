@@ -40,3 +40,10 @@ print(lista4)
 
 lista4.extend(["Python", "Ruby"])
 print(lista4) # Resultado => ['Js', 'C++', 'Java', 'Python, 'Ruby]
+
+
+
+# INDEX
+lista5 = ["oi", "ola", "bye", "good"]
+
+print(lista5.index("bye")) # Resultado => 2
