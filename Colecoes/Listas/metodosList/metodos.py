@@ -12,3 +12,5 @@ lista.append("Python")
 lista.append([40, 30, 20])
 
 print(lista) # Resultado => [1, "Python", [40, 30, 20]]
+
+# COPY
