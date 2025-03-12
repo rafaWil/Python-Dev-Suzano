@@ -19,3 +19,11 @@ numeros = list(range(10))
 
 # Exemplo com lista com todos atributos de um carro
 carro = ["Ferrari", "F8", 4200000, 2020, 2900, "São Paulo", True]
+
+
+# Print nas variaveis
+print(frutas)
+print(frutas_vazia)
+print(letras)
+print(numeros)
+print(carro)
