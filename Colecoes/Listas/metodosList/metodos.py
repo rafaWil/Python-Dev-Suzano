@@ -31,3 +31,12 @@ print(lista3.count("BMW")) # Resultado => 2
 print(lista3.count("Civic")) # Resultado => 1
 print(lista3.count("Ferrari")) # Resultado => 0
 # O método count() é usado para contar o número de vezes que um elemento aparece em uma lista
+
+
+
+# EXTEND
+lista4 = ["Js", "C++", "Java"]
+print(lista4)
+
+lista4.extend(["Python", "Ruby"])
+print(lista4) # Resultado => ['Js', 'C++', 'Java', 'Python, 'Ruby]
