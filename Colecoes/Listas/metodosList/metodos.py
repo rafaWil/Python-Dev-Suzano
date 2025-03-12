@@ -82,3 +82,8 @@ print(lista9) # Resultado => ['bye', 'good', 'oi', 'ola']
 lista10 = ["oi", "ola", "bye", "good"]
 print(len(lista10)) # Resultado => 4
 # O método len() é usado para calcular o número de elementos de uma lista.
+
+
+# SORTED
+lista11 = ["oi", "ola", "bye", "good"]
+print(sorted(lista11)) # Resultado => ['bye', 'good', 'oi', 'ola']
