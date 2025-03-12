@@ -76,3 +76,9 @@ lista9 = ["oi", "ola", "bye", "good"]
 print(lista9.sort()) # Resultado => None
 print(lista9) # Resultado => ['bye', 'good', 'oi', 'ola']
 # O método sort() é usado para ordenar os elementos de uma lista em ordem alfabetica
+
+
+# LEN
+lista10 = ["oi", "ola", "bye", "good"]
+print(len(lista10)) # Resultado => 4
+# O método len() é usado para calcular o número de elementos de uma lista.
