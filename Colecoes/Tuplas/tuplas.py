@@ -18,3 +18,13 @@ print(frutas[0])  # imprime: laranja
 print(letras[0])  # imprime: p
 print(numeros[1])  # imprime: 2
 print(pais[0])  # imprime: Brasil
+
+
+listaCarros = ("Ferrari", "Porsche", "Bmw",)
+print(listaCarros)
+
+novo_carro = input("Digite o nome do carro: ")  # Recebe um novo carro
+
+# Converte a tupla para lista, adiciona o novo carro e transforma de volta em tupla
+listaCarros = tuple(list(listaCarros) + [novo_carro])
+print(listaCarros)
