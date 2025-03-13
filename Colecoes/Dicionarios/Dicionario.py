@@ -14,3 +14,7 @@ pessoa["telefone"] = "3333-3333" # pessoa = {"nome": "Wilson", "idade": 22, "tel
 
 # Usando dict e passando dois parametros
 ex2_pessoa = dict(nome = "Wilson", idade = 22)
+
+
+print(pessoa)
+print(ex2_pessoa) 
