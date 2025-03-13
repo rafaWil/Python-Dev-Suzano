@@ -37,3 +37,6 @@ contatos = {
 """
     ==> A forma mais comum para percorrer os dados de um dicionário é utilizando o comando FOR
 """
+# Exemplo
+for chave, valor in contatos.items():
+    print(f"Chave: {chave} - Valor: {valor}")
