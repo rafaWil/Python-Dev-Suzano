@@ -31,3 +31,9 @@ contatos = {
     "david@gmail.com": {"nome":"David", "telefone":"2222-2222"},
     "raquel@gmail.com": {"nome":"Raquel", "telefone":"4444-4444"},
 }
+
+
+# ITERAR
+"""
+    ==> A forma mais comum para percorrer os dados de um dicionário é utilizando o comando FOR
+"""
