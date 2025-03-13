@@ -17,4 +17,17 @@ ex2_pessoa = dict(nome = "Wilson", idade = 22)
 
 
 print(pessoa)
-print(ex2_pessoa) 
+print(ex2_pessoa)
+
+
+# DICIONARIOS ANINHADOS
+"""
+    ==> Dicionarios podem armazenar qualquer tipo de objeto Python como valor, desde que a chave para esse valor seja um objeto imutável como(strings e números)
+"""
+# Exemplo
+contatos = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-0000"},
+    "joao@gmail.com": {"nome":"João", "telefone":"1111-111"},
+    "david@gmail.com": {"nome":"David", "telefone":"2222-2222"},
+    "raquel@gmail.com": {"nome":"Raquel", "telefone":"4444-4444"},
+}
