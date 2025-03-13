@@ -12,3 +12,9 @@ letras = tuple("python")
 numeros = tuple([1,2,3,4])
 
 pais = ("Brasil",)
+
+# Exemplo de acesso a uma tupla
+print(frutas[0])  # imprime: laranja
+print(letras[0])  # imprime: p
+print(numeros[1])  # imprime: 2
+print(pais[0])  # imprime: Brasil
