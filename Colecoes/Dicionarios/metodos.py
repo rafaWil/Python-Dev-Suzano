@@ -29,3 +29,16 @@ dict.fromkeys(["nome", "telefone"], "vazio") # {"nome": "vazio", "telefone": "va
 # EXEMPLO
 carro = dict.fromkeys(["modelo_escape", "modelo_motor"], "esportivo")
 print(carro)
+
+
+
+# GET
+contatos = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"}
+}
+
+# contatos["chave"] # KeyError
+
+print(contatos.get("chave")) # None
+print(contatos.get("chave", {})) # {}
+print(contatos.get("wilson@gmail.com", {})) # {"wilson@gmail.com": {"nome": "wilson", "telefone": "0000-0000"}
