@@ -85,3 +85,24 @@ contatos3 # {'nome': 'Wilson', 'telefone': '1111-2222'}
 
 contatos3.setdefault("idade", 22) # 22
 contatos3 # {'nome': 'Wilson', 'telefone': '1111-2222', 'idade': 22}
+
+
+
+# update
+contatos4 = {
+    "wilson@gmail.com": {"nome": "Wilson", "telefone": "2222-2222"}
+}
+
+contatos4.update({"wilson@gmail.com" : {"nome": "Rafael"}})
+print(contatos4) # {"wilson@gmail.com": {"nome": "Rafael"}}
+
+
+# VALUES
+contatos5 = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-0000"},
+    "joao@gmail.com": {"nome":"João", "telefone":"1111-111"},
+    "david@gmail.com": {"nome":"David", "telefone":"2222-2222"},
+    "raquel@gmail.com": {"nome":"Raquel", "telefone":"4444-4444"},
+}
+
+print(contatos5.values())
