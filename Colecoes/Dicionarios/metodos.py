@@ -74,3 +74,14 @@ contatos2 = {
 }
 
 print(contatos2.popitem()) # ("wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"})
+
+
+
+# SET DEFAULT
+contatos3 = {'nome': 'Wilson', 'telefone': '1111-2222'}
+
+contatos3.setdefault('nome', 'Raquel') # "Wilson"
+contatos3 # {'nome': 'Wilson', 'telefone': '1111-2222'}
+
+contatos3.setdefault("idade", 22) # 22
+contatos3 # {'nome': 'Wilson', 'telefone': '1111-2222', 'idade': 22}
