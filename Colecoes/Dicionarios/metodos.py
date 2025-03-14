@@ -25,3 +25,7 @@ dict.fromkeys(["nome", "telefone"]) # {"nome": None, "telefone": None}
 
 # Outra situação
 dict.fromkeys(["nome", "telefone"], "vazio") # {"nome": "vazio", "telefone": "vazio"}
+
+# EXEMPLO
+carro = dict.fromkeys(["modelo_escape", "modelo_motor"], "esportivo")
+print(carro)
