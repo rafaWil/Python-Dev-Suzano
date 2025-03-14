@@ -42,3 +42,11 @@ contatos = {
 print(contatos.get("chave")) # None
 print(contatos.get("chave", {})) # {}
 print(contatos.get("wilson@gmail.com", {})) # {"wilson@gmail.com": {"nome": "wilson", "telefone": "0000-0000"}
+
+
+# ITEMS
+contatos = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"}
+}
+
+print(contatos.items()) # Retornar a lista de itens encontrados
