@@ -58,3 +58,19 @@ contatos = {
 }
 
 print(contatos.keys()) # Retorna apenas as chaves
+
+
+# POP
+contatos = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"}
+}
+
+print(contatos.pop("wilson@gmail.com"))
+
+
+# POP ITEMS
+contatos2 = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"}
+}
+
+print(contatos2.popitem()) # ("wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"})
