@@ -50,3 +50,11 @@ contatos = {
 }
 
 print(contatos.items()) # Retornar a lista de itens encontrados
+
+
+# KEYS
+contatos = {
+    "wilson@gmail.com": {"nome":"wilson", "telefone":"0000-000"}
+}
+
+print(contatos.keys()) # Retorna apenas as chaves
