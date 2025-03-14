@@ -19,3 +19,9 @@ contatos = {
 }
 contatos_copia = contatos.copy()
 
+
+# FROMKEYS
+dict.fromkeys(["nome", "telefone"]) # {"nome": None, "telefone": None}
+
+# Outra situação
+dict.fromkeys(["nome", "telefone"], "vazio") # {"nome": "vazio", "telefone": "vazio"}
