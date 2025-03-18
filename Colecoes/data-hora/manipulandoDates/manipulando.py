@@ -1,7 +1,7 @@
 # TIME DELTA
 
 # Exemplo
-import datetime
+from datetime import datetime, date, time
 
 # criando data e hora
 data_hora = datetime.datetime(2025, 3, 17, 21, 5)
