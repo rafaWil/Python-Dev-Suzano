@@ -29,3 +29,11 @@ class Bicicleta:
     
 # Instanciando com variavel
 b1 = Bicicleta("vermelha", "caloi", 2022, 600)
+
+# Add metodos a variavel
+b1.buzinar()
+b1.parar()
+b1.correr()
+
+# Imprimindo seus atributos
+print(b1.cor, b1.modelo, b1.ano, b1.valor)
