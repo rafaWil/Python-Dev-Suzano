@@ -14,3 +14,5 @@ class Bicicleta:
         self.ano = ano
         self.valor = valor
         
+# Instanciando com variavel
+b1 = Bicicleta("vermelha", "caloi", 2022, 600)
