@@ -37,3 +37,11 @@ b1.correr()
 
 # Imprimindo seus atributos
 print(b1.cor, b1.modelo, b1.ano, b1.valor)
+
+
+
+# Criando outra Instancia
+b2 = Bicicleta("azul", "caloi", 2025, 550)
+b2.correr()
+
+print(b2.cor, b2.modelo, b2.valor)
