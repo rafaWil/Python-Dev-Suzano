@@ -14,5 +14,18 @@ class Bicicleta:
         self.ano = ano
         self.valor = valor
         
+    # Metodo Buzinar
+    def buzinar(self):
+        print("Plim Plim")
+        
+    # Metodo Parar
+    def parar(self):
+        print("Parando...")
+        print("Bicicleta Parada!")
+        
+    # Correr
+    def correr(self):
+        print("Vrummm...")
+    
 # Instanciando com variavel
 b1 = Bicicleta("vermelha", "caloi", 2022, 600)
