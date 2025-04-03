@@ -26,6 +26,11 @@ class Bicicleta:
     # Correr
     def correr(self):
         print("Vrummm...")
+        
+    # Metodo para mostrar os valores dos atributos de modo LINEAR
+    def __str__(self):
+        return f"Bicicleta: {self.cor} {self.modelo}, Ano: {self.ano}, Valor: {self.valor}"
+    
     
 # Instanciando com variavel
 b1 = Bicicleta("vermelha", "caloi", 2022, 600)
@@ -46,3 +51,6 @@ b2.correr()
 b2.parar()
 
 print(b2.cor, b2.modelo, b2.valor)
+
+# Chamando de maneira organizada
+print(b2)
