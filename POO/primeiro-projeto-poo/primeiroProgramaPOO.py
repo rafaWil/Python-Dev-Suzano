@@ -29,7 +29,7 @@ class Bicicleta:
         
     # Metodo para mostrar os valores dos atributos de modo LINEAR
     def __str__(self):
-        return f"Bicicleta: {self.cor} {self.modelo}, Ano: {self.ano}, Valor: {self.valor}"
+        return f"Bicicleta: {self.cor}, {self.modelo}, Ano: {self.ano}, Valor: {self.valor}"
     
     
 # Instanciando com variavel
