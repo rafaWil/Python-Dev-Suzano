@@ -69,3 +69,7 @@ print(caminhao.modelo, caminhao.placa, caminhao.cor)
 caminhao.esta_carregado()
 caminhao.ligar_motor()
 caminhao.acelerando()
+
+print(carro)
+print(moto)
+print(caminhao)
