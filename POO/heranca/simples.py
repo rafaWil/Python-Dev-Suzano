@@ -40,7 +40,13 @@ class Carro(Veiculo):
     pass
 
 class Caminhao(Veiculo):
-    pass
+    def __init__(self, carregado, cor, placa, numero_rodas, modelo):
+        super().__init__(cor, placa, numero_rodas, modelo)
+        self.carregado = carregado
+    
+    # Metodo
+    def esta_carregado(self):
+        print(f"{'Sim' if self.carregado else 'Não'} estou carregado")
 
 
 # Instancias de objetos das classes e seus atributos e metodos
@@ -58,7 +64,8 @@ carro.acelerando()
 
 print("\n")
 
-caminhao = Caminhao("cinza", "wzy-0000", 12, "Mercedez")
+caminhao = Caminhao(False, "cinza", "wzy-0000", 12, "Mercedez")
 print(caminhao.modelo, caminhao.placa, caminhao.cor)
+caminhao.esta_carregado()
 caminhao.ligar_motor()
 caminhao.acelerando()
