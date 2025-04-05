@@ -12,7 +12,13 @@ Em programação herança é a capacidade de uma classe filha derivar ou herdar 
 # Itens -> Classe PAI(VEICULO) -> Classes filhos(MOTOCICLETA) - (CARRO) - (CAMINHAO)
 
 class Veiculo:
-    pass
+    def __init__(self, cor, placa, numero_rodas):
+        self.cor = cor
+        self.placa = placa
+        self.numero_rodas = numero_rodas
+        
+    
+        
 
 
 class Motocicleta(Veiculo):
