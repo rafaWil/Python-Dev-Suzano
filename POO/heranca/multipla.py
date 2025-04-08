@@ -6,23 +6,25 @@ Ou seja, a classe "filha" (ou derivada) pode acessar os métodos e atributos de 
 """
 # Exemplo Prático
 class Animal:
-    pass
+    def __init__(self, nro_patas):
+        self.nro_patas = nro_patas
 
 class Mamifero(Animal):
-    pass
+    def __init__(self, nro_patas, pelagem):
+        self.nro_patas = nro_patas
+        super().__init__(nro_patas)
 
-class Cachorro(Mamifero):
-    pass
+class Ave(Animal):
+    def __init__(self, nro_patas, cor_pena):
+        self.nro_patas = nro_patas
+        super().__init__(nro_patas)
 
 class Gato(Mamifero):
     pass
 
-class Leao(Mamifero):
-    pass
-
-class Avee(Animal):
-    pass
 
 # Heranca Multipla
 class Ornitorrinco(Mamifero, Ave):
     pass
+
+
