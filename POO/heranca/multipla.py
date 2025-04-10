@@ -13,7 +13,7 @@ class Animal:
         return f"{self.__class__.__name__}: {', '.join([f"{chave}={valor}" for chave, valor in self.__dict__.items()])}"
 
 class Mamifero(Animal):
-    def __init__(self, nro_patas, cor_pelo, **kw):
+    def __init__(self, cor_pelo, **kw):
         self.cor_pelo = cor_pelo
         super().__init__(**kw)
 
