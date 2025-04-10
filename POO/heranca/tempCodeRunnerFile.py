@@ -10,17 +10,16 @@ class Animal:
         self.nro_patas = nro_patas
         
     def __str__(self):
-        return f"{self.__class__.__name__}: {', '.join([f"{chave}={valor}" for chave, valor in self.__dict__.items()])}"
+        return f"{self.__class__.__name__}: {', '.join([f"{chave}={valor}" for chave, valor in self.__dict__items()])}"
 
 class Mamifero(Animal):
-    def __init__(self, nro_patas, cor_pelo, **kw):
+    def __init__(self, nro_patas, cor_pelo):
         self.cor_pelo = cor_pelo
-        super().__init__(**kw)
+        super().__init__(nro_patas)
 
 class Ave(Animal):
-    def __init__(self, cor_bico, **kw):
-        self.cor_bico = cor_bico
-        super().__init__(**kw)
+    def __init__(self, nro_patas):
+        super().__init__(nro_patas)
 
 class Gato(Mamifero):
     pass
@@ -30,5 +29,5 @@ class Gato(Mamifero):
 class Ornitorrinco(Mamifero, Ave):
     pass
 
-ornitorrinco = Ornitorrinco(2, "vermelho", "laranja")
+ornitorrinco = Ornitorrinco(2, "vermelho")
 print(ornitorrinco) 
