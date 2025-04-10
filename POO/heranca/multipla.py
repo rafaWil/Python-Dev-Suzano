@@ -30,5 +30,5 @@ class Gato(Mamifero):
 class Ornitorrinco(Mamifero, Ave):
     pass
 
-ornitorrinco = Ornitorrinco(2, "vermelho", "laranja")
+ornitorrinco = Ornitorrinco(nro_patas=2, cor_pelo="vermelho", cor_bico="laranja")
 print(ornitorrinco) 
