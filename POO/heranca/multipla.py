@@ -28,7 +28,8 @@ class Gato(Mamifero):
 
 # Heranca Multipla
 class Ornitorrinco(Mamifero, Ave):
-    pass
+    def __init__(self, cor_bico, cor_pelo, nro_patas):
+        super().__init__(cor_pelo=cor_pelo, cor_bico=cor_bico, nro_patas=nro_patas)
 
 ornitorrinco = Ornitorrinco(nro_patas=2, cor_pelo="vermelho", cor_bico="laranja")
 print(ornitorrinco) 
