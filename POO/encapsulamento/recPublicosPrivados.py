@@ -13,8 +13,9 @@ Todos os recursos são públicos, a menos que o nome inicie com UNDERLINE. Ou se
 
 # Exemplo
 class Conta:
-    def __init__(self, saldo=0):
+    def __init__(self, nro_agencia, saldo=0):
         self._saldo = saldo
+        self.nro_agencia = nro_agencia
         
     def depositar(self, valor):
         #...
@@ -23,8 +24,14 @@ class Conta:
     def sacar(self, valor):
         #...
         self._saldo -= valor
+        
+    def mostrar_saldo(self):
+        # ...
+        return self._saldo
     
 # Instanciando
-conta = Conta(100)
-conta.depositar(100)
+conta = Conta("001", 100)
+conta.depositar(20) # Vai somar 20 a mais no saldo da conta
 print(conta._saldo)
+print(conta.nro_agencia)
+print(conta.mostrar_saldo())
