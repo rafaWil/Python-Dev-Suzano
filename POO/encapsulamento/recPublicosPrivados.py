@@ -7,4 +7,6 @@ e métodos da classe. Em Python não temos palavras reservadas, porém usamos co
 PÚBLICO => Pode ser acessado de fora da classe.
 PRIVADO => Só pode ser acessasdo pela classe.
 
+Todos os recursos são públicos, a menos que o nome inicie com UNDERLINE. Ou seja, o interpretador Python não irá garantir a proteção do recurso, mas por ser uma convenção amplamente adotada na comunidade, quando encontramos uma variável e/ou método com nome iniciado por UNDERLINE, sabemos que não deveríamos manipular o seu valor diretamente, ou invocar o método fora do escopo da classe.
+
 """
