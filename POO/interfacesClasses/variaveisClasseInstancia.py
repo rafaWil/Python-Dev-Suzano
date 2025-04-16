@@ -27,5 +27,8 @@ kel = Estudante("Raquel", 2)
 mostrar_valores(wil, kel)
 
 
+Estudante.escola = "Uniasselvi"
+
 wil.numero = 3
-mostrar_valores(wil, kel)
+david = Estudante("David", 4)
+mostrar_valores(wil, kel, david)
