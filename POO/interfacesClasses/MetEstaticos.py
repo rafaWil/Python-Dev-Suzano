@@ -20,3 +20,28 @@ QUANDO DEVEMOS UTILIZAR UM DOS MÉTODOS
 
 
 """
+# Exemplo
+class Calculadora:
+    
+    @staticmethod
+    def somar(a, b):
+        return a + b
+
+    @staticmethod
+    def eh_par(numero):
+        return numero % 2 == 0
+
+# Usando os métodos estáticos
+print(Calculadora.somar(10, 5))        # Saída: 15
+print(Calculadora.eh_par(8))           # Saída: True
+print(Calculadora.eh_par(7))           # Saída: False
+
+
+"""
+@staticmethod: Transforma a função em um método estático, que não recebe self (instância) nem cls (classe) como primeiro parâmetro.
+
+Ele não acessa nenhum atributo ou método da classe. Apenas executa sua lógica como uma função normal, mas organizada dentro da classe.
+
+Faz sentido estar dentro da classe Calculadora porque são operações que têm relação lógica com ela, mas não dependem de estado interno.
+
+""" 
