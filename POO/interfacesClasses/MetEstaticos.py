@@ -17,4 +17,6 @@ QUANDO DEVEMOS UTILIZAR UM DOS MÉTODOS
 ==> Geralmente usamos o método de classe para criar métodos de fábrica.
 
 ==> Geralmente usamos métodos estáticos para criar funções utilitárias.
+
+
 """
