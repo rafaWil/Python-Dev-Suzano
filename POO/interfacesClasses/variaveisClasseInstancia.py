@@ -18,8 +18,14 @@ class Estudante:
     def __str__(self):
         return f"{self.nome} ({self.numero}) - {self.escola}"
     
-wil = Estudante("Wilson", 23456)
-kel = Estudante("Raquel", 12345)
+def mostrar_valores(*objs):
+    for obj in objs:
+        print(obj)
+    
+wil = Estudante("Wilson", 1)
+kel = Estudante("Raquel", 2)
+mostrar_valores(wil, kel)
 
-print(wil)
-print(kel)
+
+wil.numero = 3
+mostrar_valores(wil, kel)
