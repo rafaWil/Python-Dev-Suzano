@@ -11,4 +11,10 @@ DIFERENÇAS
 
 ==> Um método de CLASSE pode acessar ou modificar o estado da classe enquanto um método estático não pode acessá-lo ou modificá-lo.
 
+
+QUANDO DEVEMOS UTILIZAR UM DOS MÉTODOS
+
+==> Geralmente usamos o método de classe para criar métodos de fábrica.
+
+==> Geralmente usamos métodos estáticos para criar funções utilitárias.
 """
